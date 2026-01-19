@@ -15,6 +15,8 @@ public class Exercicio01 {
 		Imprimir(vetor);
 		System.out.println("VETOR DEPOIS DA ORDENAÇÃO");
 		BubbleSort(vetor);
+		
+		scanner.close();
 	}
 	
 	public static void BubbleSort(double[] vetor) {
